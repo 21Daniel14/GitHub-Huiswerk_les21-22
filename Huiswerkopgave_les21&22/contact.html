@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl" class="h-100">
+<html lang="nl" class="h-150">
   <head>
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -107,9 +107,10 @@ body {
 
 .container-sm {
   max-width: 42em;
-  background-image: url(abstract.jpg);
+  min-height: 100%;
+  background-image: url(cp.png);
   background-position: center;
-  background-size: auto;
+  background-size:auto;
   color: white;
 }
 
@@ -139,11 +140,9 @@ body {
 .md-3{
   max-width: 300px;
 }
-/*
- * Footer
- */
 footer{
   min-height: 200px;
+  min-width: 100%;
   background-color: black;
 }
 .mt-auto{
@@ -166,23 +165,23 @@ footer{
   </header><br><br>
 
     <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Complete Naam</label>
+  <label for="exampleFormControlInput1" class="form-label">Complete Naam:</label>
   <input type="email" class="form-control" id="exampleFormControlInput1">
     <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <label for="exampleFormControlInput2" class="form-label">Email address:</label>
+  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
+  <label for="exampleFormControlTextarea1" class="form-label">Bericht:</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
-  </main>
+
 <div class="d-grid gap-2 d-md-block">
   <button class="btn btn-dark" type="button">Verzenden</button>
 </div><br>
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-  </footer>
+<footer class="mt-auto text-white-50">
+  <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+</footer>
 </div>
 
 
@@ -191,5 +190,6 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle
 integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
 crossorigin="anonymous">
 </script>
+</div>
   </body>
 </html>
